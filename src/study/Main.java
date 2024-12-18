@@ -3,9 +3,9 @@ package study;
 public class Main {
 
 	public static void main(String[] args) {
-		Employee employee = new Employee("È«±æµ¿",20,"»ïÀü","¼º³²",100000,Design.getInstance());
+		Company company = new Company("»ïÀü","¼­¿ï",100000);
+		Employee employee = new Employee("È«±æµ¿",20,Design.getInstance(),company);
 		
-		employee.work();
 	}
 
 }
