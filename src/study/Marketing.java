@@ -1,10 +1,15 @@
 package study;
 
-public class Marketing implements IDepartment{
+public class Marketing implements Department{
 	private static Marketing instance = new Marketing();
 
-	public static Marketing getInstance() {
+	public static Department getInstance() {
 		return instance;
+	}
+	
+	@Override
+	public void DeptWork() {
+		
 	}
 	@Override
 	public void work() {
